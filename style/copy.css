@@ -1,0 +1,38 @@
+.trainer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+  }
+  
+  .trainer-item {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .trainer-item img {
+    width: 100%;
+    display: block;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .text-overlay h2 {
+    margin: 0;
+    font-size: 18px; /* Adjust as needed */
+  }
+  
+  .text-overlay p {
+    margin: 0;
+    font-size: 14px; /* Adjust as needed */
+  }
+  

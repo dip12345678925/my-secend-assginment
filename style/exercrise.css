@@ -274,7 +274,7 @@ color: aliceblue;
 /* Frame 8 */
 /* position: static; */
 width: 671px;
-height: 120px;
+height: 130px;
 /* Auto layout */
 display: flex;
 flex-direction: column;
@@ -286,13 +286,18 @@ gap: 14;
 text-align: center;
 /* left: 300px; */
 padding-left: 500px;
-/* top: 100px; */
+padding-top: 0px;
+/* top: -100px; */
 
 /* Inside Auto Layout */
 /* flex: none; */
 /* order: 0; */
 /* flex-grow: 0; */
-margin: 58px 0px;
+margin: 80px 0px;
+}
+.change-title{
+    font-size: 50px;
+    
 }
 /* change habits picture */
 .banner3{
@@ -565,3 +570,63 @@ left: 662px;
 top: 30px;
 border-radius: 20px;
 }
+.team{
+    color: aliceblue;
+    width: 671px;
+    /* height: 100px; */
+    /* display: flex ; */
+    /* flex-direction: column; */
+    align-items: center;
+    /* top: 100px; */
+    text-align: center;
+    padding-left: 500px;
+    
+}
+.team-member{
+    color: aliceblue;
+    /* padding-top: 100px; */
+    font-size: 50px;
+}
+.team-des{
+    color: rgba(255, 255, 255, 0.5);
+    /* padding-top: -100px; */
+    /* padding-bottom: 100px; */
+}
+
+.team-picture{
+    /* Frame 45 */
+position: static;
+width: 1060px;
+height: 604px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+/* gap: 20; */
+margin-left: 400px;
+flex: none;
+/* order: 0; */
+/* flex-grow: 1; */
+/* margin-top: 100px; */
+border-radius: 18px;
+background:aliceblue;
+}
+
+.trainer1, .trainer2, .trainer3, .trainer4, .trainer5,
+.trainer6{
+  /* Rectangle 25 */
+/* position: static; */
+width: 326.67px;
+height: 272px;
+/* Inside Auto Layout */
+flex: none;
+/* order: 0; */
+align-self: stretch;
+/* flex-grow: 0; */
+margin: 15px 10px 5px 10px;
+border-radius: 18px;
+/* gap: 50; */
+background: rgba(0, 0, 0, 0.2),url(image);
+}
+
