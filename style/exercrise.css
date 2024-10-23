@@ -20,9 +20,9 @@ color: aliceblue;
 width: 515px;
 height: 215px;
 font-size: 60px;
-/* padding-left: 65px; */
+padding-left: 65px;
 /* font-weight: 600; */
-text-align: left;
+/* text-align: left; */
 }
 
 .description{
@@ -55,22 +55,12 @@ font-weight: 700;
     }
 
 
- .btn-first{
-    /* Button */
-/* position: static; */
-/* width: 224px; */
-/* height: 54px; */
-/* Auto layout */
-/* display: flex; */
-/* flex-direction: row; */
+ .btn-first{/
 justify-content: center;
 align-items: flex-start;
 /* gap: 10; */
 padding: 16px 40px 16px 40px;
-/* Inside Auto Layout */
 flex: none;
-/* order: 0; */
-/* flex-grow: 0; */
 margin: 0px 14px;
 border-radius: 42px;
 background: rgb(230, 83, 60);
@@ -88,12 +78,6 @@ font-size: 15px;
     margin-top: 30px;
  }
  .banner-2{
-    /* /* display: flex; */
-    /* max-width: 1200px ; */
-    /* padding-left: -40px; */
-    /* margin-left: 30px; */
-    /* left: 2000px; */
-    /* Images 2 */
 position: absolute;
 width: 49px;
 height: 80px;
@@ -212,22 +196,13 @@ border: 2px solid rgb(255, 255, 254);
  }  
       
 .home-sec{
-    /* Frame 4 */
-/* position: static; */
 width: 92px;
 height: 38px;
-/* Auto layout */
-/* display: flex; */
 flex-direction: row;
 justify-content: center;
 align-items: center;
 /* gap: 10; */
 padding: 2px 5px 2px 5px;
-/* Inside Auto Layout */
-/* flex: none; */
-/* order: 0; */
-/* flex-grow: 0; */
-/* margin: 0px 47px; */
     border-radius: 46px;
     background-color: rgb(230, 83, 60); 
 
@@ -539,8 +514,8 @@ position: static;
 width: 1060px;
 height: 604px;
 
-display: flex;
-flex-direction: row;
+/* display: flex; */
+/* flex-direction: row; */
 justify-content: center;
 align-items: flex-start;
 
@@ -830,6 +805,7 @@ button:hover {
     .work-sens-font{
         width: 395px;
         height: 6963px;
+        display: block;
     }
     .navbar{
         /* text-align: center; */
@@ -839,9 +815,20 @@ button:hover {
         font-size: 30px;
         
     }
+     .title{
+        width: 300px;
+        height: 100px;
+        margin-left : -50px;
+        font-size: 40px;
+     
+    }
     .description{
-        width: 400px;
-        height: 50px;
+        width: 300px;
+        height: 70px;
+        margin-top: 50px;
+    }
+    .btn-secend{
+        margin-left: -5px;
     }
      .nav-link{
         visibility: hidden;
