@@ -271,28 +271,17 @@ padding: 2px 5px 2px 5px;
 
 .change-habits{
 color: aliceblue;
-/* Frame 8 */
-/* position: static; */
-width: 671px;
-height: 130px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-/* justify-content: flex-start; */
-align-items: center;
-gap: 14;
-/* padding: 0px; */
-/* left: -70px; */
-text-align: center;
-/* left: 300px; */
-padding-left: 500px;
-padding-top: 0px;
-/* top: -100px; */
 
-/* Inside Auto Layout */
-/* flex: none; */
-/* order: 0; */
-/* flex-grow: 0; */
+width: 671px;
+height: 130px;    
+display: flex;
+flex-direction: column;     
+align-items: center;
+gap: 14;       
+
+text-align: center;  
+padding-left: 500px;
+padding-top: 0px; 
 margin: 80px 0px;
 }
 .change-title{
@@ -813,7 +802,7 @@ align-items: flex-start;
 
 }
 
-button {
+.button-chall {
     /* padding: 10px 20px; */
     width: 130px;
     height: 50px;
@@ -829,4 +818,192 @@ button {
 
 button:hover {
     background-color: #e64a19;
+}
+
+/* desktop screen comelete  */
+
+
+/* mobile screen :start */
+
+@media only screen and (max-width:576px) {
+    /* header section  */
+    .work-sens-font{
+        width: 395px;
+        height: 6963px;
+    }
+    .navbar{
+        /* text-align: center; */
+        align-items: center;
+        /* height: 2-px; */
+        flex-direction:column;
+        font-size: 30px;
+        
+    }
+    .description{
+        width: 400px;
+        height: 50px;
+    }
+     .nav-link{
+        visibility: hidden;
+        /* flex: none; */
+    }
+    .img{
+       left: 10px;
+       top: 450px;
+    }
+    .Rectangle17{
+        left: 10px;
+        top: 900px;
+    }
+    .Rectangle18{
+        left: 180px;
+        top: 510px;
+    }
+/* main section  */
+
+   .change-habits{
+    width: 300px;
+    height: 35px;
+    padding-left: 50px;
+    padding-top: 250px;
+   }
+
+   .banner3{
+     width: 338px;
+     height: 1100px;
+     flex-direction: column;
+     padding: 0px;
+     margin-top: 300px;
+   }
+   .run-extra{
+    margin-left: 10px;
+    width: 400px;
+    height: 700px;
+   }
+   .run-title{
+    width: 300px;
+    height: 100px;
+    margin-left: 25px;
+   }
+   .run-des{
+    width: 300px;
+    margin-left: 25px;
+   }
+   .run-btn-div{
+    width: 250px;
+    margin-left: 20px;
+   }
+   .run-btn{
+    width: 150px;
+    font-size: 27px;
+    /* text-align: justify */
+    background-color:fuchsia ;
+   }
+   .run-img{
+    left: 20px;
+    top: 350px;
+   }
+   /* main-challeng part  */
+   .container{
+     width: 350px;
+     height: 800px;
+     border-radius: 10px;
+     /* left: 1000px; */
+     margin-left: 15px;
+   }
+   .bmi-chart{
+    width: 300px;
+    height: 280px;
+    margin-left: -20px;
+    margin-top: 0px;
+   }
+   .bmi-calculator{
+    width: 300px;
+    height: 400px;
+    /* margin-left: 50px ; */
+    margin-top: 350px;
+   }
+   .Calculate-des{
+     /* width: 150px; */
+     /* height: 50px; */
+     font-size: 20px;
+   }
+   .Calculate-p{
+    width: 300px;
+    height: 30px;
+    font-size: 10px;
+   }
+   #height{
+    width: 130px;
+   }
+   #weight{
+    width: 130px;
+    margin-left: -10px;
+   }
+   #age{
+    width: 130px;
+   }
+    #activity{
+        width: 300px;
+    }
+    .button-chall{
+        margin-left: 100px;
+    }
+
+       /* our team member  */
+    .team{
+        width: 400px;
+        height: 200px;
+        margin-left: -500px;
+    }
+     .team-picture{
+        /* position: static; */
+        width: 353px;
+        height: 1750px;
+        /* display: flex; */
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        /* align-items: center; */
+        gap: 20;
+        padding: 20px;
+        /* flex: none; */
+        /* order: 0; */
+        /* flex-grow: 1; */
+        margin: 50px 20px;
+     }
+      .footer{ 
+        width: 393px;
+        height: 986px;
+        margin-left: 10px;
+        background: rgba(255, 255, 255, 0.1);
+      }
+      .ex-per{
+        width: 100px;
+        margin-left: -250px;
+        margin-top: -100px;
+      }
+      .foot-des{
+        width: 380px;
+      }
+      .get-started-1{
+        margin-top: 200px;
+        margin-left: -100px;
+        font-size: 30px;
+        
+      }
+      .get-started-2{
+        margin-top: 450px;
+        margin-left: -380px;
+        font-size: 30px;
+      }
+      .scell{
+        width: 350px;
+        margin-left: -250px;
+        margin-top: 850px ;
+      }
+      .copyright{
+        margin-left: -600px;
+        margin-top: 900px;
+      }
+
 }
